@@ -30,9 +30,4 @@ pipeline {
 			echo "Post failure message test"
 		}
 	}
-
-	changed {
-		echo 'I run when you fail'
-	}
-	
 }
